@@ -452,7 +452,7 @@ main { overflow-x: hidden; }
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding-top: 115px;
   margin-bottom: var(--section-padding);
 }
