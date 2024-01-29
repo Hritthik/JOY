@@ -103,3 +103,13 @@ if (localStorage.getItem("theme") === "light_theme") {
   document.body.classList.remove("light_theme");
   document.body.classList.add("dark_theme");
 }
+
+// var typed = new Typed(".text", {
+//     strings: ["Frontend Developer . . ." , "Programmer . . ." , "Web Developer . . ."],
+//     typeSpeed: 70,
+//     backSpeed: 50,
+//     backDelay: 1000,
+//     loop: true
+// })
+
+

@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joy - personal portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
 
     <!-- 
     - favicon
@@ -25,6 +28,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
         rel="stylesheet">
+        <style>  
+            .text {
+                color:hsl(24, 74%, 64%);
+                font-size: 30px;
+                font-weight: bold;
+               text-align: left;
+            }
+        </style>
 </head>
 
 <body id="top" class="dark_theme">
@@ -119,11 +130,10 @@
 
                 <div class="hero-content">
 
-                    <h2 class="h2 hero-title">I Design & Build Creative AI</h2>
-
-                    <a href="#contact" class="btn btn-primary">Get in touch</a>
-
+                    <h2 class="h2 hero-title">I Design & Build</h2>
+                    <h2><span class="text"></span></h2>                  
                 </div>
+            <div class="hero-content"><a href="#contact" class="btn btn-secondaryy">Get in touch</a></div>
 
                 <ul class="hero-social-list">
 
@@ -939,6 +949,17 @@
   -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var typed = new Typed(".text", {
+                strings: ["Creative AI . . .", "Creative AI . . .", "Creative AI . . ."],
+                typeSpeed: 70,
+                backSpeed: 50,
+                backDelay: 10,
+                loop: true
+            });
+        });
+    </script>
 
 </body>
 
